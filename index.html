@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rooted & Wild</title>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|EB+Garamond|Libre+Baskerville|Nunito+Sans|Vollkorn" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- HEADER  -->
+  <header class="parallax header">
+
+    <img class="center-block img-responsive main-logo" src="images/R&W-LogoLarge2Black.png" alt="">
+
+  </header>
+  <nav class="navbar navbar-default text-center">
+    <a type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">MENU</a>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#about">ABOUT</a></li>
+        <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#work">WORK</a></li>
+        <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<div class="container-fluid">
+
+<a name="about"></a>
+
+  <!-- ABOUT ME -->
+  <div class="row about">
+    <div class="col-sm-6 about-img">
+      <img src="images/IMG_0005.jpg" alt="Mackenzie Myers" class="center-block image-cropper img-responsive">
+    </div>
+    <div class="col-sm-6 about-img">
+      <h3 class="text-center">Hi! I'm Mackenzie</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <span><a href="https://www.linkedin.com/in/carlieclippinger" target="blank"><img id="linkedin" src="images/linkedin-logo.svg" alt="Carlie's LinkedIn"></a></span>
+      <span><a href="https://instagram.com/rootedandwild" target="blank"><img id="ig" src="images/ig-logo.png" alt="Carlie's IG"></a></span>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+
+ <!-- MY WORK -->
+  <!-- <h3 class="text-center">My Work</h3> -->
+  <a name="work"></a>
+  <div class="row row-no-padding">
+    <div class="col-sm-4 work">
+      <img src="images/IMG_0003.jpg" alt="" height="170" class="img-responsive">
+    </div>
+    <div class="col-sm-4 work">
+      <img src="images/IMG_0020.jpg" alt="" height="170" class="img-responsive">
+    </div>
+    <div class="col-sm-4 work">
+      <img src="images/IMG_0023.jpg" alt="" height="170" class="img-responsive">
+    </div>
+  </div>
+
+  <!-- <hr> -->
+  <!-- CONTACT ME -->
+  <br>
+  <br>
+  <section id="contact">
+    <a name="contact"></a>
+    <h3 class="text-center">Let's Chat!</h3>
+    <div class="contact text-center">
+      Want to work together? I offer (services).....Fill out the form below or reach out to me directly at email@email.com
+      <a href="mailto:carliesachiko@gmail.com?Subject=Rooted%20and%20Wild" target="_top"><span class="glyphicon glyphicon-envelope blck"></span></a>
+    </div>
+
+    <div class="contact-form">
+      <form id="ajax-contact" method="post" action="contact.php">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Name" required>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Subject</label>
+          <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Message</label>
+          <textarea type="text" class="form-control" rows="6" id="message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <div id="form-messages"></div>
+    </div>
+  </section>
+
+
+
+  <br>
+  <br>
+  <br>
+
+  <footer class="footer container">
+    <!-- <span class="text-muted">&copy; 2017 Rooted & Wild</span> -->
+    <div class="pull-right">
+      <span><a href="https://www.linkedin.com/in/carlieclippinger" target="blank"><img id="linkedin" src="images/linkedin-logo.svg" alt="Carlie's LinkedIn"></a></span>
+      <span><a href="https://instagram.com/rootedandwild" target="blank"><img id="ig" src="images/ig-logo.png" alt="Carlie's IG"></a></span>
+    </div>
+  </footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
